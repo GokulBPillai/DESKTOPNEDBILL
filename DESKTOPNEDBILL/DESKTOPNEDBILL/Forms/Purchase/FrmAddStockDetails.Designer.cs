@@ -921,9 +921,9 @@
             this.label28.ForeColor = System.Drawing.Color.White;
             this.label28.Location = new System.Drawing.Point(3, 3);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(277, 21);
+            this.label28.Size = new System.Drawing.Size(272, 21);
             this.label28.TabIndex = 0;
-            this.label28.Text = "Prurchase Invoice Price Details";
+            this.label28.Text = "Purchase Invoice Price Details";
             // 
             // panel4
             // 

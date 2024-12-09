@@ -172,7 +172,6 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.label4 = new System.Windows.Forms.Label();
             this.panelHeader.SuspendLayout();
             this.panelHeaderLine.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -198,7 +197,6 @@
             // 
             // panelHeader
             // 
-            this.panelHeader.Controls.Add(this.label4);
             this.panelHeader.Controls.Add(this.label1);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeader.Location = new System.Drawing.Point(0, 0);
@@ -302,7 +300,7 @@
             this.tableLayoutPanel5.Location = new System.Drawing.Point(10, 10);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 69F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 71F));
             this.tableLayoutPanel5.Size = new System.Drawing.Size(174, 71);
             this.tableLayoutPanel5.TabIndex = 2;
             // 
@@ -317,7 +315,7 @@
             this.BtnAddNewCustomer.ForeColor = System.Drawing.Color.White;
             this.BtnAddNewCustomer.Location = new System.Drawing.Point(91, 5);
             this.BtnAddNewCustomer.Name = "BtnAddNewCustomer";
-            this.BtnAddNewCustomer.Size = new System.Drawing.Size(78, 63);
+            this.BtnAddNewCustomer.Size = new System.Drawing.Size(78, 65);
             this.BtnAddNewCustomer.TabIndex = 44;
             this.BtnAddNewCustomer.Text = "Add New";
             this.BtnAddNewCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -336,7 +334,7 @@
             this.btnCustomer.ForeColor = System.Drawing.Color.White;
             this.btnCustomer.Location = new System.Drawing.Point(5, 5);
             this.btnCustomer.Name = "btnCustomer";
-            this.btnCustomer.Size = new System.Drawing.Size(78, 63);
+            this.btnCustomer.Size = new System.Drawing.Size(78, 65);
             this.btnCustomer.TabIndex = 45;
             this.btnCustomer.Text = "Select";
             this.btnCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -1589,15 +1587,6 @@
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             this.dataGridViewImageColumn2.Width = 125;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(500, 18);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(23, 21);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "hi";
-            // 
             // FrmSalesInvoice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -1764,6 +1753,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn18;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn19;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewImageColumn4;
-        private System.Windows.Forms.Label label4;
     }
 }
