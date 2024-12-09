@@ -28,7 +28,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>https://raw.githubusercontent.com/GokulBPillai/DESKTOPNEDBILL/refs/heads/main/Published/</InstallUrl>
     <UpdateUrl>https://raw.githubusercontent.com/GokulBPillai/DESKTOPNEDBILL/refs/heads/main/Published/</UpdateUrl>
-    <MinimumRequiredVersion>1.0.0.8</MinimumRequiredVersion>
+    <MinimumRequiredVersion>1.0.0.9</MinimumRequiredVersion>
     <ApplicationRevision>9</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
