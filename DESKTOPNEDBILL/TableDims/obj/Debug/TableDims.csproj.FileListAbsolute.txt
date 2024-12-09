@@ -1,0 +1,17 @@
+D:\Live Projects\DESKTOPNEDBILL\TableDims\bin\Debug\TableDims.dll.config
+D:\Live Projects\DESKTOPNEDBILL\TableDims\bin\Debug\TableDims.dll
+D:\Live Projects\DESKTOPNEDBILL\TableDims\bin\Debug\TableDims.pdb
+D:\Live Projects\DESKTOPNEDBILL\TableDims\bin\Debug\EntityFramework.dll
+D:\Live Projects\DESKTOPNEDBILL\TableDims\bin\Debug\EntityFramework.SqlServer.dll
+D:\Live Projects\DESKTOPNEDBILL\TableDims\bin\Debug\EntityFramework.xml
+D:\Live Projects\DESKTOPNEDBILL\TableDims\bin\Debug\EntityFramework.SqlServer.xml
+D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.csproj.AssemblyReference.cache
+D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.csproj.CoreCompileInputs.cache
+D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.csproj.CopyComplete
+D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.dll
+D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.pdb
+D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.Migrations.mInitial.resources
+D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.csproj.GenerateResource.cache
+D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.Migrations.mSecond.resources
+D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.Migrations.mThird.resources
+D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.Migrations.mFourth.resources

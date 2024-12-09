@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF5FF52C-1903-4B91-8E88-444C572B7A9E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TableDims</RootNamespace>
+    <AssemblyName>TableDims</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\CMPDBContext.cs" />
+    <Compile Include="DbConnect.cs" />
+    <Compile Include="Migrations\202411280616238_mInitial.cs" />
+    <Compile Include="Migrations\202411280616238_mInitial.designer.cs">
+      <DependentUpon>202411280616238_mInitial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202411291835574_mSecond.cs" />
+    <Compile Include="Migrations\202411291835574_mSecond.designer.cs">
+      <DependentUpon>202411291835574_mSecond.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202411291844466_mThird.cs" />
+    <Compile Include="Migrations\202411291844466_mThird.designer.cs">
+      <DependentUpon>202411291844466_mThird.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202412071024242_mFourth.cs" />
+    <Compile Include="Migrations\202412071024242_mFourth.designer.cs">
+      <DependentUpon>202412071024242_mFourth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Bank.cs" />
+    <Compile Include="Models\Batch.cs" />
+    <Compile Include="Models\CompanyGstType.cs" />
+    <Compile Include="Models\CompanyProfile.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\EmpCtrl.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\EmployeePosition.cs" />
+    <Compile Include="Models\FYearTrans.cs" />
+    <Compile Include="Models\GlAccount.cs" />
+    <Compile Include="Models\GlBreak.cs" />
+    <Compile Include="Models\InventoryCategory.cs" />
+    <Compile Include="Models\InventoryType.cs" />
+    <Compile Include="Models\ModMaster.cs" />
+    <Compile Include="Models\ModMasterBL.cs" />
+    <Compile Include="Models\PhysicalAdjust.cs" />
+    <Compile Include="Models\PurchaseInvMaster.cs" />
+    <Compile Include="Models\PurchasePayment.cs" />
+    <Compile Include="Models\PurchaseRetMaster.cs" />
+    <Compile Include="Models\RoleMaster.cs" />
+    <Compile Include="Models\RoleModule.cs" />
+    <Compile Include="Models\RoleSubModule.cs" />
+    <Compile Include="Models\SalesInvMaster.cs" />
+    <Compile Include="Models\SalesReceipt.cs" />
+    <Compile Include="Models\SalesRetMaster.cs" />
+    <Compile Include="Models\StateCode.cs" />
+    <Compile Include="Models\StkTran.cs" />
+    <Compile Include="Models\Stocks.cs" />
+    <Compile Include="Models\SubModMaster.cs" />
+    <Compile Include="Models\UnitMeasure.cs" />
+    <Compile Include="Models\UserAccessDetails.cs" />
+    <Compile Include="Models\Vendor.cs" />
+    <Compile Include="Models\QryStkDaySummary.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202411280616238_mInitial.resx">
+      <DependentUpon>202411280616238_mInitial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202411291835574_mSecond.resx">
+      <DependentUpon>202411291835574_mSecond.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202411291844466_mThird.resx">
+      <DependentUpon>202411291844466_mThird.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202412071024242_mFourth.resx">
+      <DependentUpon>202412071024242_mFourth.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+</Project>

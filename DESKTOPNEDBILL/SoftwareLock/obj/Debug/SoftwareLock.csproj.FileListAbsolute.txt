@@ -1,0 +1,6 @@
+D:\Live Projects\DESKTOPNEDBILL\SoftwareLock\bin\Debug\SoftwareLock.dll
+D:\Live Projects\DESKTOPNEDBILL\SoftwareLock\bin\Debug\SoftwareLock.pdb
+D:\Live Projects\DESKTOPNEDBILL\SoftwareLock\obj\Debug\SoftwareLock.csproj.AssemblyReference.cache
+D:\Live Projects\DESKTOPNEDBILL\SoftwareLock\obj\Debug\SoftwareLock.csproj.CoreCompileInputs.cache
+D:\Live Projects\DESKTOPNEDBILL\SoftwareLock\obj\Debug\SoftwareLock.dll
+D:\Live Projects\DESKTOPNEDBILL\SoftwareLock\obj\Debug\SoftwareLock.pdb
