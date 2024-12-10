@@ -50,6 +50,7 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.label4 = new System.Windows.Forms.Label();
             this.panelFooter.SuspendLayout();
             this.panelHeaderLine.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -143,6 +144,7 @@
             // 
             // panelUpperBody
             // 
+            this.panelUpperBody.Controls.Add(this.label4);
             this.panelUpperBody.Controls.Add(this.btnBackup);
             this.panelUpperBody.Controls.Add(this.rtxtBackUpStatus);
             this.panelUpperBody.Controls.Add(this.btnBrowseFolder);
@@ -311,6 +313,15 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(37, 247);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(44, 16);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "label4";
+            // 
             // FrmBackUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -369,5 +380,6 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button btnBackup;
         private System.Windows.Forms.Button btnRestore;
+        private System.Windows.Forms.Label label4;
     }
 }

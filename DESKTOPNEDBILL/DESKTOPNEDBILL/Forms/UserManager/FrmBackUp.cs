@@ -42,14 +42,21 @@ namespace DESKTOPNEDBILL.Forms.UserManager
 
         private void btnBackup_Click(object sender, EventArgs e)
         {
+            string localDbPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\Microsoft\\Microsoft SQL Server Local DB\\Instances\\";
+            
+            string localDbPath1 = Application.StartupPath;
+            string localDbPath2 = System.IO.Directory.GetCurrentDirectory();
+            label4.Text = localDbPath;
             BackupDatabase();
         }
         private bool BackupDatabase()
         {
+            string SourceDBPATH = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\Apps\\2.0\\";
+            //string SourceDBPATH = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\Microsoft\\Microsoft SQL Server Local DB\\Instances\\MSSQLLocalDB";
 
             if (txtBackupFolderPath.Text != "")
             {
-                string SourceDBPATH = AppDomain.CurrentDomain.BaseDirectory;
+                //string SourceDBPATH = AppDomain.CurrentDomain.BaseDirectory;
                 string DBPATH = txtBackupFolderPath.Text;//AppDomain.CurrentDomain.BaseDirectory;
                 string Nm = DateTime.Now.ToString("dd.MM.yyyy-HH.mm");
                 string foldername = MdlMain.gCompanyName + "_BackUpDB"; // "BackUp"

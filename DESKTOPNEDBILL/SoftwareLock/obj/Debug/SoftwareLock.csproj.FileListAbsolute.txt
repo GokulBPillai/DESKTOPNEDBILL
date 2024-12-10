@@ -4,3 +4,9 @@ D:\Live Projects\DESKTOPNEDBILL\SoftwareLock\obj\Debug\SoftwareLock.csproj.Assem
 D:\Live Projects\DESKTOPNEDBILL\SoftwareLock\obj\Debug\SoftwareLock.csproj.CoreCompileInputs.cache
 D:\Live Projects\DESKTOPNEDBILL\SoftwareLock\obj\Debug\SoftwareLock.dll
 D:\Live Projects\DESKTOPNEDBILL\SoftwareLock\obj\Debug\SoftwareLock.pdb
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\SoftwareLock\bin\Debug\SoftwareLock.dll
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\SoftwareLock\bin\Debug\SoftwareLock.pdb
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\SoftwareLock\obj\Debug\SoftwareLock.csproj.AssemblyReference.cache
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\SoftwareLock\obj\Debug\SoftwareLock.csproj.CoreCompileInputs.cache
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\SoftwareLock\obj\Debug\SoftwareLock.dll
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\SoftwareLock\obj\Debug\SoftwareLock.pdb

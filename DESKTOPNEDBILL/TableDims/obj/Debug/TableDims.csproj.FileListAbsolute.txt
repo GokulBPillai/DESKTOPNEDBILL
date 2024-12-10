@@ -15,3 +15,20 @@ D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.csproj.GenerateRes
 D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.Migrations.mSecond.resources
 D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.Migrations.mThird.resources
 D:\Live Projects\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.Migrations.mFourth.resources
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\bin\Debug\TableDims.dll.config
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\bin\Debug\TableDims.dll
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\bin\Debug\TableDims.pdb
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\bin\Debug\EntityFramework.dll
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\bin\Debug\EntityFramework.SqlServer.dll
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\bin\Debug\EntityFramework.xml
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\bin\Debug\EntityFramework.SqlServer.xml
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.csproj.AssemblyReference.cache
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.Migrations.mInitial.resources
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.Migrations.mSecond.resources
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.Migrations.mThird.resources
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.Migrations.mFourth.resources
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.csproj.GenerateResource.cache
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.csproj.CoreCompileInputs.cache
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.csproj.CopyComplete
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.dll
+D:\github\DESKTOPNEDBILL\DESKTOPNEDBILL\TableDims\obj\Debug\TableDims.pdb
