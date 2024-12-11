@@ -29,7 +29,7 @@
     <InstallUrl>https://raw.githubusercontent.com/GokulBPillai/DESKTOPNEDBILL/refs/heads/main/Published/</InstallUrl>
     <UpdateUrl>https://raw.githubusercontent.com/GokulBPillai/DESKTOPNEDBILL/refs/heads/main/Published/</UpdateUrl>
     <MinimumRequiredVersion>1.0.0.11</MinimumRequiredVersion>
-    <ApplicationRevision>11</ApplicationRevision>
+    <ApplicationRevision>12</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
