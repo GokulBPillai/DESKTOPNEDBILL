@@ -535,7 +535,7 @@ namespace DESKTOPNEDBILL.Forms.Stock
                 stkTrRow["QtyIn"] = quantity;
                 stkTrRow["QtyOut"] = 0;
                 stkTrRow["ExpDate"] = DtpExpiry.Text;
-                stkTrRow["Batch"] = TxtBatch.Text;
+                stkTrRow["Batch"] = TxtBatch.Text == "" ? "GEN" : TxtBatch.Text.Trim();
                 stkTrRow["BatchId"] = EditbatchID;
                 stkTrRow["GST"] = gst;
                 stkTrRow["CGSTPercentage"] = gst / 2;

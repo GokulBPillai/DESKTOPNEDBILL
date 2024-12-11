@@ -1861,11 +1861,10 @@ namespace DESKTOPNEDBILL.Forms.Purchase
                         cmpDBContext.Stock.Add(stocks);
                         cmpDBContext.SaveChanges();
                         NewStockId = stocks.StockId;
-                        item["StockId"] = stocks.StockId;
-                        return true;
+                        item["StockId"] = stocks.StockId;                        
                     }
                 }
-                return false;
+                return true;
             }
             catch (Exception)
             {
